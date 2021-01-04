@@ -1,0 +1,60 @@
+*{margin: 0; padding: 0;}
+body{
+	height: 10000px;
+}
+h1.title {
+    text-align: center;
+    margin: 50px 0px;
+    font-family: tahoma;
+}
+nav>ul{
+	background-color: lightblue;
+	height: 60px;
+}
+nav ul li{
+	list-style: none;
+	width: 100px;
+}
+nav>ul>li{
+	margin-left: 50px;
+}
+nav ul li{
+	float: left;
+	display: inline-block;
+	position: relative;
+}
+nav a{
+	color: black;
+}
+nav li{
+	background-color: lightblue;
+}
+nav ul li ul{
+	position: absolute;
+	left: 0;
+    top: 60px;
+    min-width: 100px;
+	display: none;
+	background-color: red;
+}
+nav ul li a{
+	padding: 20px 10px;
+	display: inline-block;
+	text-decoration: none;
+}
+nav ul li:hover>ul{
+	display: block;
+}
+nav ul ul ul{
+	left: 101px;
+	top: 0px;
+}
+nav li:hover>a{
+	color: red;
+}
+nav li li{
+	border-bottom: 1px solid black;
+}
+nav li li:last-child{
+	border-bottom: none;
+}
