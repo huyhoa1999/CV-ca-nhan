@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .target1 {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            margin-left: 510px;
+        }
+
+        .target1:hover {
+            transform: skew(50deg);
+            background-image: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+        }
+        .test{
+        	text-align: center;
+        	display: block;
+        	line-height: 150px;	
+     		text-transform: uppercase;
+        }
+        .target1:hover .test{
+        	transform: scale(3);
+        	color: white;
+        	}
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">CSS3</h1>
+
+    <div class="target1">
+        <span class="test">huy</span>
+    </div>
+
+</body>
+</html>
